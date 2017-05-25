@@ -35,12 +35,16 @@
 *.i*86
 *.x86_64
 *.hex
+*.run
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+Debug/
+Release/
+bin/
 
 # Kernel Module Compile Results
 *.mod*
@@ -50,3 +54,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# MacOS files
+.DS_Store
