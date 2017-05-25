@@ -55,5 +55,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# MacOS files
+# Ignore Mac DS_Store files
 .DS_Store
