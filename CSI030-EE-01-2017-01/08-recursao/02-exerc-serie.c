@@ -3,7 +3,7 @@
 
 // Serie = 1 + x + (x^2 - 1) / 2 + ... + ((x^n) - (n - 1)) / n
 
-int serie(int x, int n) {
+float serie(int x, int n) {
   // Base
   if (n == 0) {
     return 1;
