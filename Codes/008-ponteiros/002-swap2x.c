@@ -11,7 +11,7 @@ void swap2x(int *a, int *b) {
 
   // Duplica
   *a = (*a) * 2;
-  *b *= (*b) * 2;
+  *b = (*b) * 2;
 
 }
 
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
   int x = 5, y = 3;
   swap2x(&x, &y);
 
-  printf("X = %d\nY = %d", x, y);
+  printf("X = %d\nY = %d\n", x, y);
 
 
 
