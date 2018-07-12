@@ -5,25 +5,9 @@ typedef struct regComplexo {
   float imag;
 } Complexo;
 
-void ler(Complexo *n) {
-
-  printf("Parte real: ");
-  scanf("%f", n->real);
-  printf("Parte imaginaria: ");
-  scanf("%f", (*n).imag);
-
-}
-
 int main(int argc, char const *argv[]) {
 
   Complexo n1, n2, soma;
-  Complexo num[2];
-  Complexo matriz[5][5];
-
-  Complexo *p;
-  p = (Complexo *) malloc( 5 * sizeof(Complexo) );
-
-  ler(&n1);
 
   // Ler os numeros
   printf("Primeiro numero: \n");

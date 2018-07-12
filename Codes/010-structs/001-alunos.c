@@ -5,7 +5,7 @@ struct regAluno {
   float notas[3];
 };
 
-typedef regAluno Aluno;
+typedef struct regAluno Aluno;
 
 int main(int argc, char const *argv[]) {
 
@@ -23,14 +23,6 @@ int main(int argc, char const *argv[]) {
     }
 
   }
-
-
-
-
-
-
-
-
 
   return 0;
 }
