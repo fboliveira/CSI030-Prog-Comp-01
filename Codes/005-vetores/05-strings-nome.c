@@ -1,5 +1,26 @@
 #include <stdio.h>
 
+void inverso(char nome[]) {
+
+  int i, posicao = 0;
+
+  // Encontrar o \0
+  for(i = 0; nome[i] != '\0'; i++) {
+    posicao++;
+  }
+
+  //posicao = i;
+
+  for(i = posicao - 1; i >= 0; i--) {
+    printf("%c", nome[i]);
+  }
+
+  printf("\n");
+
+}
+
+
+
 int substituir(char nome[]) {
 
   int i, trocas = 0;
@@ -74,6 +95,8 @@ int main(int argc, char const *argv[]) {
   // soletrar
   soletrar(nome);
 
+  // Imprimir em ordem inversa
+  inverso(nome);
 
   return 0;
 }
