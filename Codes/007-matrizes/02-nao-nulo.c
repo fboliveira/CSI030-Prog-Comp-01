@@ -1,5 +1,23 @@
 #include <stdio.h>
 
+int numerodeNaoNulos(int m[5][5]) {
+  int i, j;
+  int n = 0;
+
+  for(i = 0; i < 5; i++) {
+    for(j = 0; j < 5; j++) {
+      if ( m[i][j] != 0 ) {
+        n++;
+      }
+    }
+  }
+
+  return n;
+
+
+}
+
+
 void imprimirNaoNulo(int m[5][5]) {
   int i, j;
 
@@ -20,6 +38,7 @@ int main(int argc, char const *argv[]) {
 
   int m[5][5];
   int i, j;
+  int n;
 
 
   for(i = 0; i < 5; i++) {
@@ -30,6 +49,20 @@ int main(int argc, char const *argv[]) {
   }
 
   imprimirNaoNulo(m);
+  n = numerodeNaoNulos(m);
+
+  printf("Nao nulos = %d\n", n);
+
+
+
+
+
+
+
+
+
+
+
 
   return 0;
 }
