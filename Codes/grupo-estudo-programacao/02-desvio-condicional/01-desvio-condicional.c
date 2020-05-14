@@ -40,7 +40,7 @@ int main(int argc, char const *argv[]) {
   } else if ( idade == 17 && nacionalidade == 'B' ) {
       printf("CNH permitida para o proximo ano.");
   } else {
-      printf("CNH nao permitida.")
+      printf("CNH nao permitida.");
   } 
 
   // Teste da idade (somente) ?
