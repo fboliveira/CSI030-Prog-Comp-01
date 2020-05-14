@@ -14,6 +14,8 @@ int main() {
     // Primeira letra do nome
     char letra;
 
+    int dias, horas, minutos, segundos;
+
     // Entrada pelo teclado:
     scanf("%d", &idade);
 
@@ -25,8 +27,13 @@ int main() {
 
     // Calcular a idade:
     // - em dias;
+    dias = meses * 30;
     // - em horas;
+    horas = dias * 24;
+    // - em minutos
+    minutos = horas * 60;
     // - em segundos;
+    segundos = minutos * 60; // segundos = horas * 3600;
 
     // Rever: (Moodle)
     // - notas de aula 01 e 02 
