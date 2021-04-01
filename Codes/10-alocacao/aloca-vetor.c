@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
     imprimir(vetor, n);
 
     //vetor[n + 5]; ERRO
-    p = realloc(p, (n + 5) * sizeof(int));
+    p = (int *) realloc(p, (n + 5) * sizeof(int));
 
     for(i = 0; i < (n + 5); i++) {
         scanf("%d", &p[i]);
