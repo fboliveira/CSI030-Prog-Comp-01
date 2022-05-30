@@ -44,9 +44,10 @@ int main(int argc, char const *argv[]) {
 
     int vetor[n];
     leitura(vetor, n);
-
+    
     media = calcular_media(vetor, n);
     printf("A media e: %.2f\n", media);
+
     imprimir_abaixo_media(vetor, n, media);
 
     return 0;
