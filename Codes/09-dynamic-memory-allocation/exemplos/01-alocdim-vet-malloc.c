@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+
+#include <stdlib.h>
 
 int main(int argc, char const *argv[]) {
 	int *p, i;
@@ -10,6 +11,7 @@ int main(int argc, char const *argv[]) {
 	else {
 		for(i=0;i<20;i++)
 			*(p+i)=i;
+			// p[i] = i
 
 		for(i=0;i<20;i++)
 			printf("%d \t",p[i]);

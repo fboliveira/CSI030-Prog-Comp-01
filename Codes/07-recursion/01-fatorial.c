@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// fat = 5: 1 * 2 * 3 * 4 * 5
+// fat = 5: 5 * fat(4)
+// fat = 4: 4 * fat(3)
+
 int fatorial_iterativa(int n) {
     int i, fat = 1;
 

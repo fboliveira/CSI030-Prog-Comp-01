@@ -4,9 +4,14 @@
 #define LINHAS 5
 #define COLUNAS 5
 
+void imprimir(float **distancia, int n) {
+	
+}
+
 int main(int argc, char const *argv[]) {
 	int i,j;
-	/* aloca as linhas da matriz */
+	
+	/* aloca as linhas da matriz */
 	int **A = (int **) malloc(LINHAS*sizeof(int*));
 
 	/* depois aloca cada coluna */
@@ -18,7 +23,8 @@ int main(int argc, char const *argv[]) {
 				A[i][j] = i + j;
 				printf("A = %d \t",A[i][j]);
 			}
-			printf("\n");
+			printf("\n");
+
 		}
 
 		for (i = 0; i < LINHAS; i++)
