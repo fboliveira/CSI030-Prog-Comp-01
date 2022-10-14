@@ -4,7 +4,7 @@
 #define LINHAS 5
 #define COLUNAS 5
 
-void imprimir(float **distancia, int n) {
+void imprimir(float **distancia, int linhas, int colunas) {
 	
 }
 
