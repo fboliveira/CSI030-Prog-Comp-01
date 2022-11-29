@@ -1,5 +1,5 @@
 /*
-* CSI101-2022-01 - Programacao de Computadores I
+* CSI030-101-2022-02 - Programacao de Computadores I
 * Nome........: (seu nome completo)
 * Matricula...: 99.9.9999
 * Curso.......: (nome do curso)
@@ -12,7 +12,7 @@
 /* Funcao principal */
 int main(int argc, char const *argv[]) {
 
-  /* Comente o seu codigo */
+  
 
   return 0;
 
