@@ -27,10 +27,10 @@ int main(int argc, char const *argv[]) {
         }
     }
 
-    // media = soma;
-    // media = media / n;
 
     if ( n > 0 ) {
+        // media = soma;
+        // media = media / n;
         media = (float)soma / n;
 
         printf("Soma: %d\n", soma);
