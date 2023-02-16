@@ -10,7 +10,7 @@ void imprimirInt(int x) {
 
 
 // main -> retorno eh int.
-int main(int argc, char const *argv[]) {
+int main() {
 
     int a = 4, b = 3, c = 1, d = -5, e = 8, f = 2;
 
@@ -34,7 +34,7 @@ int main(int argc, char const *argv[]) {
 int soma(int x, int y) {
 
     // x = 4;
-    x = x + 3; // x = 6;
+    x = x + 2; // x = 6;
     // y = 3;
     y--;
 
