@@ -7,6 +7,7 @@ typedef struct Notas {
 
     int matricula;
     float notas[3];
+    char nome[101];
 
     // float nota1;
     // float nota2;
@@ -33,6 +34,10 @@ int main(int argc, char const *argv[]) {
         printf("Discente: %d\n", i + 1);
         printf("Matricula: ");
         scanf("%d", &turma[i].matricula);
+
+        printf("Nome:");
+        scanf(" %[^\n]s", turma[i].nome);
+        // gets(turma[i].nome);
         printf("Notas: \n");
 
         for(j = 0; j < 3; j++) {
