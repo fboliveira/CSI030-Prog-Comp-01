@@ -3,9 +3,17 @@
 
 int soma_intervalo(int x, int y) {
 
-    int i, soma = 0;
+    int i, soma = 0, menor, maior;
 
-    for(i = x; i <= y; i++) {
+    if (x < y) {
+        menor = x;
+        maior = y;
+    } else {
+        menor = y;
+        maior = x;
+    }
+
+    for(i = menor; i <= maior; i++) {
         soma += i;
     }
 
