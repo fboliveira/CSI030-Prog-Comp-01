@@ -11,11 +11,13 @@ int main(int argc, char const *argv[]) {
 
     // MAIOR que a 10
 
-    if ((numero % 2 == 0) && (numero > 10))
-        printf("O numero eh par E eh maior que 10.\n");
-     else
-        printf("O numero eh impar OU eh menor ou igual a 10.\n");
-    
+    if ((numero % 2 == 0) && (numero > 10)) {
+            printf("O numero eh par E eh maior que 10.\n");
+    } else if (numero % 2 != 0) {
+            printf("O numero eh impar.\n");
+    } else {
+        printf("O numero eh menor do que 10.")
+    }
 
     return 0;
 }
