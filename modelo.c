@@ -1,7 +1,7 @@
 /*
-* Disciplina..: CSI101 - Programacao de Computadores I
-* Semestre....: 2024/1
-* Turma.......: 21
+* Disciplina..: CSI030/CSI101 - Programacao de Computadores I
+* Semestre....: 2024/2
+* Turma.......: (número)
 *
 * Nome........: (seu nome completo)
 * Matricula...: 99.9.9999
