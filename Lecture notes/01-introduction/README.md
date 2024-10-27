@@ -44,6 +44,6 @@
 ### Transformação de base
 
 - `18` (**base 10**) -> (**base 2**).
-- `10110`~2~ -> __~10~.
+- `10110`<sub>2</sub> -> __<sub>10</sub>.
 
 [Exemplos](https://docente.ifsc.edu.br/alex.forghieri/MaterialDidatico/Arquitetura%20de%20computadores/Material%20das%20aulas/08%20-%2017-06-2016/Convers%C3%A3o%20de%20Bases.pdf)
