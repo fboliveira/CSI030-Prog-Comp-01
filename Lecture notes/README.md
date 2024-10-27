@@ -10,7 +10,7 @@
 
 **Lecture notes and additional resources:**
 
-1. Introduction
+1. [Introduction](./01-introduction/)
 1. Variáveis, constantes, tipos de dados e E/S
 1. Expressões e comandos condicionais
 1. Comandos de repetição
