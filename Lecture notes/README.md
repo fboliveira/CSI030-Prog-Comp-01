@@ -11,12 +11,16 @@
 **Lecture notes and additional resources:**
 
 1. [Introduction](./01-introduction/)
-1. Variáveis, constantes, tipos de dados e E/S
-1. Expressões e comandos condicionais
-1. Comandos de repetição
-1. Sub-rotinas: funções e procedimentos
-1. Vetores e Strings
-1. Matrizes: vetores multidimensionais
-1. Recursão
-1. Ponteiros e Alocação Dinâmica
-1. Tipos heterogêneos de dados: structs
+1. Variables, constants, data types, and I/O
+1. Expressions and conditional statements
+1. Looping statements
+1. Subroutines: functions and procedures
+1. Arrays and Strings
+1. Matrices: multidimensional arrays
+1. Recursion
+1. Pointers and Dynamic Allocation
+1. Heterogeneous data types: structs
+
+**References**
+
+[MC102 - Algoritmos e Programação de Computadores](https://www.ic.unicamp.br/~mc102/)
