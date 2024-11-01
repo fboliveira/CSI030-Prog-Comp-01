@@ -13,9 +13,9 @@
 
 ### Organização do computador
 
-- O hardware do computador é entendido pelo software em 6 partes:
-- Unidades de entrada de dados: teclado, mouse, etc.;
-- Unidades de saída de dados: monitor, impressora, rede, etc.;
+- O hardware do computador é entendido pelo software em **6 partes**:
+- Unidades de entrada de dados: teclado, mouse, dentre outros;
+- Unidades de saída de dados: monitor, impressora, rede, dentre outros;
 - Unidade de memória principal: memória RAM;
 - Unidade lógica e aritmética (ULA);
 - Unidade central de processamento (CPU);
