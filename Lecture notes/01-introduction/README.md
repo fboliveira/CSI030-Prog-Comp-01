@@ -11,19 +11,26 @@
 - Ele processa informações de acordo com um conjunto de comandos que formam um programa.
 - Os comandos são escritos em uma linguagem de programação.
 
+---
+
 ### Organização do computador
 
 - O hardware do computador é entendido pelo software em **6 partes**:
-- Unidades de entrada de dados: teclado, mouse, dentre outros;
-- Unidades de saída de dados: monitor, impressora, rede, dentre outros;
-- Unidade de memória principal: memória RAM;
-- Unidade lógica e aritmética (ULA);
-- Unidade central de processamento (CPU);
-- Unidade de armazenamento secundário: Harddisk, DVD, pendrive.
+
+1. Unidades de entrada de dados: teclado, mouse, dentre outros;
+1. Unidades de saída de dados: monitor, impressora, rede, dentre outros;
+1. Unidade de memória principal: memória RAM;
+1. Unidade lógica e aritmética (ULA);
+1. Unidade central de processamento (CPU);
+1. Unidade de armazenamento secundário: Harddisk, DVD, pendrive.
+
+---
 
 ### Arquitetura de von Neumann
 
 ![Modelo lógico do computador](https://upload.wikimedia.org/wikipedia/commons/9/95/Arquiteturavn.png)
+
+---
 
 ### Como funciona o computador?
 
