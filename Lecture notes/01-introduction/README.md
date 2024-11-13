@@ -1,4 +1,4 @@
-****# CSI030/CSI101 - Computer Programming I
+# CSI030/CSI101 - Computer Programming I
 
 ## Introdução
 
