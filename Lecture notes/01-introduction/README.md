@@ -26,6 +26,8 @@
 
 ---
 
+<!-- Unidades de medida: bit, byte, gbyte, ... -->
+
 ### Arquitetura de von Neumann
 
 ![Modelo lógico do computador](https://upload.wikimedia.org/wikipedia/commons/9/95/Arquiteturavn.png)
@@ -41,6 +43,8 @@
 
 #### Representação binária
 
+<!-- Mudar número: 6 -> 110 -->
+
 - O número `5` (**base 10**) equivale a `101` (**base 2**).
 - O número `101` (base 2) pode ser representado como:
   - `101` (base 2): mínimo de bits necessário.
@@ -52,6 +56,8 @@
 
 - `18` (**base 10**) -> __(**base 2**).
 - `10110`(**base 2**) -> __(**base 10**).
+
+<!-- Operação com binários  -->
 
 [Exemplos e outras informações](https://docente.ifsc.edu.br/alex.forghieri/MaterialDidatico/Arquitetura%20de%20computadores/Material%20das%20aulas/08%20-%2017-06-2016/Convers%C3%A3o%20de%20Bases.pdf)
 
