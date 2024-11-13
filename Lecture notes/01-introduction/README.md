@@ -1,4 +1,4 @@
-# CSI030/CSI101 - Computer Programming I
+****# CSI030/CSI101 - Computer Programming I
 
 ## Introdução
 
@@ -17,12 +17,12 @@
 
 - O hardware do computador é entendido pelo software em **6 partes**:
 
-1. Unidades de entrada de dados: teclado, mouse, dentre outros;
-1. Unidades de saída de dados: monitor, impressora, rede, dentre outros;
-1. Unidade de memória principal: memória RAM;
-1. Unidade lógica e aritmética (ULA);
-1. Unidade central de processamento (CPU);
-1. Unidade de armazenamento secundário: Harddisk, DVD, pendrive.
+1. Unidades de **entrada de dados**: teclado, mouse, dentre outros;
+1. Unidades de **saída de dados**: monitor, impressora, rede, dentre outros;
+1. Unidade de **memória principal**: memória RAM;
+1. Unidade **lógica e aritmética** (ULA);
+1. Unidade **central de processamento** (CPU);
+1. Unidade de **armazenamento secundário**: Harddisk, DVD, pendrive.
 
 ---
 
@@ -74,17 +74,15 @@
 
 - **Algoritmos** são **sequências** de passos, **precisos** e bem **definidos**, que descrevem **como** realizar uma **tarefa**.
 
-- Podem ser especificados em português, português
-estruturado, fluxogramas, linguagens de programação, dentre outros.
+- Podem ser especificados/representados em **português**, **português estruturado**, **fluxogramas**, **linguagens de programação**, dentre outros.
 
 #### Algoritmo em português
 
 **Calcule a soma dos números 1234 e 456.**
 
-- Escrever os números em um papel, um abaixo do outro,
-alinhados pelo digito das unidades.
-- Para cada coluna de 1 ou mais dígitos, somar os dígitos alinhados. Se o valor da soma ultrapasse 9, adicionar 1 à coluna imediatamente à esquerda da coluna atual e anotar o dígito das unidades desta soma como o resultado da soma.
-- Após executar todas as somas, ler o resultado final.
+1. Escrever os números em um papel, um abaixo do outro, alinhados pelo digito das unidades.
+1. Para cada coluna de 1 ou mais dígitos, somar os dígitos alinhados. Se o valor da soma ultrapasse 9, adicionar 1 à coluna imediatamente à esquerda da coluna atual e anotar o dígito das unidades desta soma como o resultado da soma.
+1. Após executar todas as somas, ler o resultado final.
 
 #### Algoritmo em Português Estruturado
 
@@ -130,8 +128,7 @@ Dados `N` números, escrever um algoritmo em `português estruturado` que calcul
 
 #### Linguagem de Montagem
 
-- Linguagem que utiliza siglas para representar comandos em
-sequências de `0`s e `1`s. Ex: *Assembly*.
+- Linguagem que utiliza siglas para representar comandos em sequências de `0`s e `1`s. Ex: *Assembly*.
 - Um montador traduz este código para linguagem de máquina.
 
 - Exemplo de código Assembly retirado [daqui](https://pt.wikipedia.org/wiki/Linguagem_assembly)
@@ -180,12 +177,12 @@ dw 0xAA55
 
 ### Do algoritmo para um programa em C
 
-1. O programador escreve o algoritmo na linguagem C em um arquivo de texto, chamado de código fonte.
-2. O compilador gera códigos objeto a partir da compilação dos códigos fonte.
-3. Os códigos objeto de um ou mais códigos fonte são unidos pelo linker, gerando um programa executável.
-4. O código executável é carregado na memória pelo loader.
-5. A CPU executa as instruções carregadas.
-6. Quando encontramos erros no funcionamento do programa, é possível depurá-lo com um depurador.
+1. O programador escreve o algoritmo na linguagem C em um arquivo de texto, chamado de **código fonte**.
+2. O compilador gera códigos objeto a partir da **compilação** dos códigos fonte.
+3. Os códigos objeto de um ou mais códigos fonte são unidos pelo **linker**, gerando um programa executável.
+4. O código executável é carregado na **memória** pelo **loader**.
+5. A CPU executa as **instruções** carregadas.
+6. Quando encontramos erros no funcionamento do programa, é possível depurá-lo com um **depurador**.
 
 ### Estrutura de um programa em C
 
