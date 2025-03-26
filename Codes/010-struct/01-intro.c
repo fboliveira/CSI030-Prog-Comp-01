@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef int INTEIRO;
 
@@ -35,6 +36,21 @@ int main(int argc, char const *argv[]) {
     struct Pessoa ana, pedro, joao;
     Discente turma[50];
     // int i;
+
+    Discente *hugo;
+    hugo = (Discente *) malloc(sizeof(Discente));
+
+    (*hugo).matricula = 10;
+    hugo->matricula = 20;
+
+    Discente *turmaEE;
+    turmaEE = (Discente *) malloc(30 * sizeof(Discente));
+
+    turmaEE[0].matricula = 1;
+    // turmaEE->matricula ???
+    // Discente a* = &turmaEE[0];
+    // a->matricula = 1;
+
 
     scanf("%d", &ana.matricula);
     scanf("%d", &pedro.matricula);
