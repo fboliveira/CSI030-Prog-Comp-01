@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct Discente {
     char nome[101];
@@ -6,6 +7,11 @@ typedef struct Discente {
     float media;
     int resultado; // 0 - R; 1 - A
 } Discente;
+
+typedef struct Turma {
+    Discente *discente;
+    int quantidade;
+} Turma;
 
 void ler_dados(Discente turma[], int n) {
     int i, j;
@@ -74,11 +80,20 @@ int main(int argc, char const *argv[]) {
     printf("Digite a quantidade: ");
     scanf("%d", &n);
 
-    Discente turma[n];
+    //Discente turma[n];
+    Discente *turma;
+    turma = (Discente *) malloc(n * sizeof(Discente));
+
+    Turma turmaEX;
+    turmaEX.discente = (Discente *) malloc(n * sizeof(Discente));
+    turmaEX.quantidade = n;
 
     ler_dados(turma, n);
     calcular_resultado(turma, n);
     imprimir_dados(turma, n);
     
+    free(turma);
+    free(turmaEX.discente);
+
     return 0;
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef int INTEIRO;
 
@@ -41,11 +42,23 @@ int main(int argc, char const *argv[]) {
     Pessoa turma[30];
     int i;
 
+    Pessoa *hugo;
+    hugo = (Pessoa *) malloc(sizeof(Pessoa));
+
+    (*hugo).matricula = 10;
+    hugo->matricula = 20;
+
+    Pessoa *turmaEX = (Pessoa *) malloc(40 * sizeof(Pessoa));
+    turmaEX[0].matricula = 1;
+
     scanf("%d", &ana.matricula);
     scanf("%d", &pedro.matricula);
     scanf("%d", &joao.matricula);
 
     ler_dados(turma, 30);
+
+    free(hugo);
+    free(turmaEX);
 
     return 0;
 }
